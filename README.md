@@ -15,7 +15,7 @@ Desafio de uma aplicação em React Native com gerenciamento de carrinho de comp
 
 <img alt="GoMarketplace" src="https://i.imgur.com/fT0IMk4.png" />
 
-Essa aplicação possui um layout que pode ser acessado a partir deste <a href="https://i.imgur.com/fT0IMk4.png">Link<a/>.
+Essa aplicação possui um layout que pode ser acessado a partir deste <a href="https://www.figma.com/file/VgK3hsmyGbqiGu9FdqfUzF/GoMarketplace?node-id=0:1">Link<a/>.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -23,6 +23,7 @@ Essa aplicação possui um layout que pode ser acessado a partir deste <a href="
 
 - `Listagem` de produtos de uma fake API.
 - `Adição` e `remoção` de produtos no carrinho de compras.
+- `Exibir` o valor total de itens no carrinho. 
 
 ## Testes da aplicação 
 
@@ -38,4 +39,20 @@ do produto, e o `subtotal total` de cada produto.
 
 - `should be able to show the total quantity of itens in the cart`: A página `Dashboard`e `Cart` exibi o número total de produtos que estão no carrinho.
 
-## Terminar o Readme
+- `should be able to increment product quantity on the cart`: A aplicação permiti que seja possível `incrementar` a quantidade de um produto do carrinho.
+
+- `should be able to decrement product quantity on the cart`: A aplicação permiti que seja possível `decrementar` a quantidade de um produto do carrinho.
+
+- `should be able to navigate to the cart`: A aplicação deve permitir a `navegação` entre a página de produtos e o carrinho de compras.
+
+- `should be able to add products to the cart`: A aplicação deve permitir adicionar itens ao carrinho.
+
+- `should store products in AsyncStorage while adding, incrementing and decrementing`: Todas as atualizações feitas no carrinho devem ser salvas no AsyncStorage.
+
+- `should load products from AsyncStorage`: Todos os produtos que foram adicionados no carrinho devem ser buscados no AsyncStorage. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja a página [LICENSE](https://opensource.org/licenses/MIT) para mais detalhes.
